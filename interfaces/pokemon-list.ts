@@ -8,6 +8,10 @@ export interface PokemonListResponse {
 export interface smallPokemon {
     name: string;
     url:  string;
-    id: string;
+    id: number;
     img: string;
+}
+
+export interface PokemonName {
+    name: string;
 }
